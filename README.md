@@ -29,6 +29,10 @@ Efficient management of polls, users, and comment data using SQL backend.
 
 🔌 REST API Support
 Includes RESTful APIs with API key authentication for secure GET requests and extensibility.
+ 
+## 👤 Contributor
+
+- [Prashik Dongre](https://github.com/prashikdongre2003) – Local setup, debugging Flask backend, venv management, and deployment readiness.
 
 🛠️ Tech Stack
 Frontend: React.js, Tailwind CSS
