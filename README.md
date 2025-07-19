@@ -1,5 +1,7 @@
  PollVerse - Sentiment Analyzer Web-App
-🔗 Hosted Live At: Discussly.onrender.com
+
+
+🔗 Hosted Live At: discussly.onrender.com
 
 PollVerse is a full-stack web application that enables users to create anonymous polls, engage in meaningful discussion threads, and track sentiment trends over time. Designed with a focus on privacy, responsiveness, and real-time analysis, PollVerse provides an engaging platform for crowd opinions.
 
