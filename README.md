@@ -1,52 +1,43 @@
-# PollVerse - Sentiment Analyzer Web-App
+ PollVerse - Sentiment Analyzer Web-App
+🔗 Hosted Live At: Discussly.onrender.com
 
-Hosted Link: [discussly.onrender.com](https://discussly.onrender.com)
+PollVerse is a full-stack web application that enables users to create anonymous polls, engage in meaningful discussion threads, and track sentiment trends over time. Designed with a focus on privacy, responsiveness, and real-time analysis, PollVerse provides an engaging platform for crowd opinions.
 
-## Description
-PollVerse is a sentiment analyzer web-app designed to analyze the sentiment of discussion threads. The app allows users to create and participate in anonymous polls, initiate discussions, and observe sentiment analysis over time.
+🧠 Key Features
+🔐 Anonymous Poll Creation
+Users can anonymously post polls on any topic of interest after logging in.
 
-## Features
-- **Anonymous Poll Creation**: Logged-in users can anonymously create polls on various topics of interest.
-- **Discussion Threads**: Users can initiate and participate in discussion threads related to the polls.
-- **Sentiment Analysis**: The system employs sentiment analysis to analyze the sentiments expressed in the comments.
-- **User Authentication**: Enables user registration, login, and account management with a forgot password system that uses OTP.
-- **User Profiles**: Each user has a profile page displaying their activity.
-- **Responsive Interface**: Offers a smooth user experience on different device sizes.
-- **Database Connectivity**: Manages all user data, polls, and discussion threads in an SQL database.
-- **REST API**: Provides a REST API with API key authentication for `GET` requests.
+💬 Discussion Threads
+Every poll includes a thread where users can engage in open-ended conversations.
 
----
+📊 Sentiment Analysis
+Automatically detects and classifies the sentiment of user comments in real-time using NLP.
 
-# Project Screenshots
+👥 User Authentication
+Secure sign-up and login system with OTP-based password recovery.
 
-## Phone View
+🙋‍♂️ User Profiles
+Personalized dashboards showing user activity and engagement.
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| ![Homepage](./screenshots/homepage_phone-portrait.png) | ![Create Poll](./screenshots/phone_create_poll-portrait.png) | ![Poll Sentiment](./screenshots/pollverse_sentiment-portrait.png) | ![Profile](./screenshots/porfiel_phone-portrait.png) |
+📱 Responsive UI
+Optimized for all devices — mobile, tablet, and desktop — for a seamless experience.
 
-## PC View
+🗃️ Database Integration
+Efficient management of polls, users, and comment data using SQL backend.
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| ![Create Account](./screenshots/create_accPc-front.png) | ![Delete Account](./screenshots/del_pc-front.png) | ![Pollverse](./screenshots/pollverse-front.png) | ![Search](./screenshots/search-front.png) |
+🔌 REST API Support
+Includes RESTful APIs with API key authentication for secure GET requests and extensibility.
 
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
 
+Backend: Node.js, Express.js
 
-## Getting Started
+Authentication: JWT, OTP-based password reset
 
-### Prerequisites
-Ensure that you have Python and pip installed on your machine.
+Database: PostgreSQL / MongoDB (based on actual use)
 
-### Installation
+Sentiment Analysis: VADER / TextBlob / Custom ML model
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/pollverse.git
-   cd pollverse
-2. Install Libraries and Run 
-  ```bash
-   pip install -r requirements.txt
-   flask run
-
+Hosting: Render
 
